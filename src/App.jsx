@@ -171,7 +171,7 @@ const App = () => {
               <p>Our experts analyze your land, crops, and current practices to create a customized implementation plan.</p>
             </div>
             <div className="step-image">
-              <img src="https://plus.unsplash.com/premium_photo-1663088552115-c1eeb25966f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+              <img src="https://plus.unsplash.com/premium_photo-1664476493417-2c1fd048a638?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Farm assessment" />
             </div>
           </div>
           
@@ -182,7 +182,7 @@ const App = () => {
               <p>We install IoT sensors for soil, weather, and crop monitoring across your fields.</p>
             </div>
             <div className="step-image">
-              <img src="https://images.unsplash.com/photo-1701111760013-53d55867c6f1?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sensor installation" />
+              <img src="https://images.unsplash.com/photo-1631378297854-185cff6b0986?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             </div>
           </div>
           
@@ -204,7 +204,7 @@ const App = () => {
               <p>Receive real-time recommendations via app, SMS, or our voice assistant in your preferred language.</p>
             </div>
             <div className="step-image">
-              <img src="https://media.licdn.com/dms/image/v2/D5612AQFkwIWprwkR1g/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1663697058265?e=2147483647&v=beta&t=mpRRIczp7CUxH1zuD6KQxT8qf_VTj_ZLhK2KotJShV4" alt="Actionable insights" />
+              <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=2151&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             </div>
           </div>
         </div>
