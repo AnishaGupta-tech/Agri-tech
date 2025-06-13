@@ -182,7 +182,7 @@ const App = () => {
               <p>We install IoT sensors for soil, weather, and crop monitoring across your fields.</p>
             </div>
             <div className="step-image">
-              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sensor installation" />
+              <img src="https://images.unsplash.com/photo-1701111760013-53d55867c6f1?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sensor installation" />
             </div>
           </div>
           
@@ -193,7 +193,7 @@ const App = () => {
               <p>Your farm data is securely uploaded to our AI-powered analytics platform.</p>
             </div>
             <div className="step-image">
-              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Data integration" />
+              <img src="https://plus.unsplash.com/premium_photo-1726079247028-181ca92a1195?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             </div>
           </div>
           
