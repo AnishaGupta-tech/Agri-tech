@@ -171,7 +171,7 @@ const App = () => {
               <p>Our experts analyze your land, crops, and current practices to create a customized implementation plan.</p>
             </div>
             <div className="step-image">
-              <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Farm assessment" />
+              <img src="https://plus.unsplash.com/premium_photo-1663088552115-c1eeb25966f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             </div>
           </div>
           
