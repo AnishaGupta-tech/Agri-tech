@@ -284,7 +284,7 @@ const App = () => {
           </div>
           
           <div className="cta-image">
-            <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Happy farmer" />
+            <img src="https://t4.ftcdn.net/jpg/05/95/55/89/360_F_595558921_z1JnF4ieH75XlWoDPuh1Os97QkPnb4dx.jpg" alt="Happy farmer" />
           </div>
         </div>
       </section>
