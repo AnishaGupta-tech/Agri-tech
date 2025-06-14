@@ -116,22 +116,29 @@ img {
   padding: 1rem 0;
   transition: var(--transition);
 }
-
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Critical: pushes logo left & demo right */
   align-items: center;
-  max-width: 1200px;
+  width: 100%; /* Ensures full width */
+  max-width: 1200px; /* Optional: Restricts max width but keeps space-between */
   margin: 0 auto;
   padding: 0 2rem;
+  position: relative; /* Needed for mobile menu positioning */
 }
 
+/* Logo - Forces to far left */
 .logo {
+  position: absolute;
   display: flex;
   align-items: center;
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--primary);
+  margin-right: auto; /* Pushes everything else right */
+  align-items: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .logo i {
@@ -139,14 +146,18 @@ img {
   font-size: 2rem;
 }
 
+/* Nav Menu - Takes remaining space */
 .nav-menu {
   display: flex;
   align-items: center;
+  margin-left: auto; /* Pushes nav links + actions to the far right */
 }
 
+/* Nav Links - Centers in available space (optional) */
 .nav-links {
   display: flex;
   gap: 1.5rem;
+  margin: 0 auto; /* Centers links between logo and actions */
 }
 
 .nav-links li a {
@@ -167,11 +178,12 @@ img {
   font-size: 0.9rem;
 }
 
+/* Nav Actions - Sticks to far right */
 .nav-actions {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-left: 2rem;
+  margin-left: 2rem; /* Adds spacing between links and buttons */
 }
 
 .nav-login {
@@ -197,6 +209,7 @@ img {
   background-color: var(--primary-dark);
 }
 
+/* Mobile Menu Button - Absolute position to avoid layout interference */
 .mobile-menu-btn {
   display: none;
   background: none;
@@ -204,6 +217,10 @@ img {
   font-size: 1.5rem;
   color: var(--primary);
   cursor: pointer;
+  position: absolute;
+  right: 2rem; /* Sticks to far right */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* Hero Section */
