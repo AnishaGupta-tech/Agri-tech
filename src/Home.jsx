@@ -26,7 +26,7 @@ const Home = () => {
             <li><a href="#harvest"><i className="fas fa-calendar-alt"></i> Harvest Timing</a></li>
             <li><a href="#supply-chain"><i className="fas fa-link"></i> Supply Chain</a></li>
             <li>
-              <Link to="/assitant"><i className="fas fa-robot"></i> Farm Assistant</Link>
+              <Link to="/assistant"><i className="fas fa-robot"></i> Farm Assistant</Link>
             </li>
           </ul>
           

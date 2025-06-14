@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaRobot, FaTimes, FaMicrophone, FaLanguage } from 'react-icons/fa';
-import './FarmAssitant.css';
+import './FarmAssistant.css';
 
 const FarmAssistant = () => {
   const [isOpen, setIsOpen] = useState(false);
