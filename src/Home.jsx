@@ -19,7 +19,9 @@ const Home = () => {
             <li>
               <Link to="/dashboard"><i className="fas fa-chart-line"></i> Analytics</Link>
             </li>
-            <li><a href="#irrigation"><i className="fas fa-tint"></i> Smart Irrigation</a></li>
+            <li>
+              <Link to="/irrigation"><i className="fas fa-tint"></i> Smart Irrigation</Link>
+            </li>
             <li><a href="#crop-care"><i className="fas fa-leaf"></i> Crop Care</a></li>
             <li><a href="#harvest"><i className="fas fa-calendar-alt"></i> Harvest Timing</a></li>
             <li><a href="#supply-chain"><i className="fas fa-link"></i> Supply Chain</a></li>
