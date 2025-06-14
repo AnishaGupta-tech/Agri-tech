@@ -129,12 +129,16 @@ img {
 
 /* Logo - Forces to far left */
 .logo {
+  position: absolute;
   display: flex;
   align-items: center;
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--primary);
   margin-right: auto; /* Pushes everything else right */
+  align-items: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .logo i {
