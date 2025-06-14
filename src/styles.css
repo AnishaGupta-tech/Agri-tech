@@ -124,6 +124,7 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+  width: 100%;
 }
 
 .logo {
@@ -142,6 +143,7 @@ img {
 .nav-menu {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .nav-links {
@@ -171,7 +173,6 @@ img {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-left: 2rem;
 }
 
 .nav-login {
