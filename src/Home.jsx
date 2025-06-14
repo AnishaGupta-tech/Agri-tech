@@ -25,7 +25,9 @@ const Home = () => {
             <li><a href="#crop-care"><i className="fas fa-leaf"></i> Crop Care</a></li>
             <li><a href="#harvest"><i className="fas fa-calendar-alt"></i> Harvest Timing</a></li>
             <li><a href="#supply-chain"><i className="fas fa-link"></i> Supply Chain</a></li>
-            <li><a href="#chatbot"><i className="fas fa-robot"></i> Farm Assistant</a></li>
+            <li>
+              <Link to="/assitant"><i className="fas fa-robot"></i> Farm Assistant</Link>
+            </li>
           </ul>
           
           <div className="nav-actions">
